@@ -8,10 +8,11 @@
 Make sure you have the following dependencies installed:
 
 - Python >= 3.9  
-- TensorFlow ≥ 2.10
-- pandas
-- numpy
-- scikit-learn
+tensorflow==2.10
+numpy==1.26.4
+joblib==1.5.1
+pandas==2.3.0
+scikit-learn==1.7.0
 - CUDA ≥ 11.2 (if using GPU)
 
 Install dependencies with:
