@@ -48,6 +48,14 @@ This is the framework of the dynamic spatial-temporal decomposition and fusion n
 
 
 ---
+## 📚 Citation
+
+If you find this repository helpful, please consider citing our work.  
+The corresponding paper is currently under review and will be released soon.  
+
+Citation information will be updated here once the paper is published.
+
+---
 
 ## 📮 Contact
 
