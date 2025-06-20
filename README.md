@@ -1,7 +1,5 @@
 # DST-DFN
-# 🚇🚌 Spatio-Temporal Forecasting of Urban Transit Flow Using GNN and Attention
-
-This repository provides an implementation of a deep learning model for predicting urban transit flows. It focuses on both **subway** and **bus** systems, leveraging **graph neural networks (GNN)** and **spatio-temporal attention mechanisms** to capture complex temporal dependencies and spatial interactions.
+# 🚇🚌 Subway passenger flow prediction considering subway-bus transfer:A dynamic spatiotemporal decomposition and gate fusion network
 
 ---
 
@@ -9,10 +7,8 @@ This repository provides an implementation of a deep learning model for predicti
 
 Make sure you have the following dependencies installed:
 
-- Python ≥ 3.8  
-- TensorFlow ≥ 2.8  
-- NumPy ≥ 1.20  
-- Pandas ≥ 1.3  
+- Python >= 3.9  
+- TensorFlow ≥ 2.10  
 - CUDA ≥ 11.2 (if using GPU)
 
 Install dependencies with:
@@ -20,12 +16,6 @@ Install dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
-
-> If `requirements.txt` is missing, install manually:
->
-> ```bash
-> pip install tensorflow numpy pandas
-> ```
 
 ---
 
@@ -63,15 +53,9 @@ For training with real data, make sure to preprocess the data as shown in the sc
 
 ---
 
-## 🧠 Model Overview
+## 🧠 Overall Architecture
 
-This model includes:
 
-- A series decomposition module to separate trend and seasonal components  
-- Dynamic GCN layers to handle changing spatial dependencies  
-- Multi-head temporal and spatial attention  
-- Fusion gating mechanism  
-- Final spatio-temporal attention layer for prediction
 
 ---
 
