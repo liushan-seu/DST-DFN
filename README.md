@@ -54,6 +54,7 @@ For training with real data, make sure to preprocess the data as shown in the sc
 ---
 
 ## 🧠 Overall Architecture
+This is the framework of the dynamic spatial-temporal decomposition and fusion network (DST-DFN)
 ![Framework of the dynamic spatial-temporal decomposition and fusion network (DST-DFN).](./Figs/over-stru.jpg)
 
 
